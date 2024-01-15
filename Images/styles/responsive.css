@@ -14,5 +14,37 @@
         justify-content: center;
         align-items: center;
     }
-    
+    .banner-container{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-left: 10px;
+        border-radius: 8px;
+    }
+    .banner-text p{
+        padding-bottom: 0px;
+    }
+    .banner-box{
+        flex-direction: column;
+        gap: 5px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    .container{
+        flex-direction: column;
+        max-width: 100%;
+        margin-left: 0px;
+        margin: 5px auto;
+    }
+    .text-one{
+        max-width: 100%;
+        margin: 5px auto;
+        margin-left: 5px;
+    }
+    .img-one{
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }
