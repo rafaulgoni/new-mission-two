@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+nav{
+   display: flex; 
+   justify-content: space-between;
+   max-width: 1300px;
+   margin: 0 auto;
+}
+.nav-container{
+    display: flex;
+    min-height: 20px;
+    width: 50%;
+    align-items: center;
+    gap: 10px;
+    font-style: 700;
+}
+.nav-container img{
+    width: 70px;
+    height: 70px;
+}
+.nav-container h1 span{
+    color: orangered;
+}
+.items-container{
+    min-height: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
+.items-container>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+   
+}
+.items-container li{
+    list-style: none;
+    margin-right: 40px;
+}
+.items-container li a{
+    text-decoration: none;
+    color: #000;
+    font-size: small;
+}
+
+.banner-container{
+    background-image: url('../Group13.png');
+    background-repeat: no-repeat;
+    height: 54vh;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+   
+}
+.banner-box{
+    
+}

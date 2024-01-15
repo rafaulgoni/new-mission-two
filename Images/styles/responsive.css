@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px) {
+    nav,
+    .nav-container,
+    .items-container,
+    .items-container>ul{
+        flex-direction: column;
+        width: 100%;
+        margin: 5px;
+    }
+    .nav-container,
+    .items-container>ul{
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
