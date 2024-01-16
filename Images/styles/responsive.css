@@ -19,6 +19,7 @@
         margin: 0 auto;
         margin-left: 10px;
         border-radius: 8px;
+        max-width: 100%;
     }
     .banner-text p{
         padding-bottom: 0px;
@@ -46,5 +47,38 @@
     .img-one{
         max-width: 100%;
         margin: 0 auto;
+    }
+    .foot{
+        max-width: 100%;
+    }
+    .dictumst{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .safe img{
+        width: 100%;
+    }
+    .safe{
+        max-width: 100%;
+        margin-left: 0;
+        
+    }
+    .box-one{
+        width: 100%;
+        margin: 10px auto;
+    }
+    body{
+        margin: 5px 10px;
+    }
+    .card-hero,
+    .card-itam{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .card-one,
+    .card-two,
+    .card-three{
+        flex-direction: column;
+        max-width: 100%;
     }
 }
