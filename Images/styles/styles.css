@@ -105,7 +105,7 @@ nav{
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
-    margin-left: 350px ;
+    margin: 5px auto;
 }
 .text-one{
     max-width: 50%;
@@ -246,7 +246,6 @@ nav{
 .card-itam{
     max-width: 1200px;
     margin: 70px auto;
-    border: 1px solid red;
 
 }
 .card-itam h3{
@@ -274,7 +273,6 @@ nav{
     width: 573px;
     height: 284px;
     flex-shrink: 0;
-    border: 1px solid red;
 }
 .card-two{
     width: 573px;
@@ -283,7 +281,6 @@ nav{
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    border: 1px solid red;
 }
 .card-three{
     border-radius: 16px;
@@ -292,7 +289,6 @@ nav{
     width: 573px;
     height: 284px;
     flex-shrink: 0;
-    border: 1px solid red;
     margin: 0px auto;
 }
 .card-hero{
@@ -300,4 +296,114 @@ nav{
     flex-wrap: wrap;
     gap: 24px;
     justify-content: space-between;
+    text-align: center;
+    gap: 24px;
+}
+.row-hero{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.row-hero h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.row-hero p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.row-one{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.row-two{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.row-three{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.row-one h3 {
+    position: absolute;
+    bottom: 50%;
+    padding-left: 20%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.row-two h3 {
+    position: absolute;
+    bottom: 50%;
+    padding-left: 5%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.row-three h3 {
+    position: absolute;
+    bottom: 50%;
+    padding-left: 10%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.bunnas{
+    text-align: center;
+    margin: 5px auto;
+    max-width: 1200px;
+}
+.bunnas-text h1{
+    color: orangered;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bunnas-text p{
+    color: orangered;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.bunnas-text h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bunnas img{
+    clip-path: polygon(100% 0, 100% 81%, 50% 100%, 50% 100%, 0 82%, 0% 0%);
 }

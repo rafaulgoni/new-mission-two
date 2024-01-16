@@ -19,10 +19,17 @@
         margin: 0 auto;
         margin-left: 10px;
         border-radius: 8px;
+    }
+    .items-container li a{
+        width: 100%;
+    }
+    .text-style{
         max-width: 100%;
+        margin-bottom: 30px;
     }
     .banner-text p{
         padding-bottom: 0px;
+        max-width: 100%;
     }
     .banner-box{
         flex-direction: column;
@@ -31,7 +38,7 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
-        padding: 0px;
+        padding: 0px 0px;
     }
     .container{
         flex-direction: column;
@@ -61,7 +68,6 @@
     .safe{
         max-width: 100%;
         margin-left: 0;
-        
     }
     .box-one{
         width: 100%;
@@ -80,5 +86,25 @@
     .card-three{
         flex-direction: column;
         max-width: 100%;
+    }
+    .row-one,
+    .row-two,
+    .row-three{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .row-one h3,
+    .row-two h3,
+    .row-three h3{
+        padding-left:0%;
+    }
+    .row-one img,
+    .row-two img,
+    .row-three img {
+        width: 100%;
+    }
+    .bunnas{
+        min-width: 100%;
+        flex-direction: column;
     }
 }
